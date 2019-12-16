@@ -19,7 +19,7 @@ class Card
         @facing_up = true
     end
 
-    def to_a
+    def to_s
     
     end
 
