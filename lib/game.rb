@@ -1,5 +1,4 @@
 
-class memory_puzzle
-
+class Game
 
 end
