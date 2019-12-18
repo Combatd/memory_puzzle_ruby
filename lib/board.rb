@@ -16,7 +16,10 @@ class Board
     end
 
     def won?
-
+        if (grid.all? { |card| card.facing_up})
+            return true
+        end
+        return false
     end
 
     def reveal
