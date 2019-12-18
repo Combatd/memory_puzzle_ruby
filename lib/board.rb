@@ -1,4 +1,4 @@
-require_relative "memory_puzzle"
+require_relative "card"
 
 class Board
     def initialize
@@ -23,7 +23,7 @@ class Board
     end
 
     def reveal
-
+        guessed_pos.reveal
     end
 
 end
